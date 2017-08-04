@@ -18,6 +18,9 @@ Website 100% compativel com imagens da Store <a href="https://github.com/Qwizer/
 # Utilidades
 IpChanger Versões 7.x - 10.x: <a href="https://static.otland.net/ipchanger.exe">Clique aqui</a>
 
+# GOD Account
+senha: 2/god
+
 # Contatos e Suporte Geral
 TibiaKing, Xtibia e Otland (FORUMS RECOMENDADOS).<br>
 <b>Skype:</b> onjogos <b>Whatsapp:</b> +55 (66) 9 8427-4493
