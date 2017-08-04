@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Deepling Elite" nameDescription="a deepling elite" race="blood" experience="3000" speed="210" manacost="0">
+	<health now="3200" max="3200" />
+	<look type="441" corpse="15176" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="80" />
+		<attack name="physical" interval="2000" chance="20" range="7" target="1" min ="0" max="-225">
+			<attribute key="shootEffect" value="largerock" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="10" min="150" max="200">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity fire="1" />
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<loot>
+		<item id="2148" countmax="100" chance="100000" /> <!-- gold coin -->
+		<item id="2148" countmax="86" chance="100000" /> <!-- gold coin -->
+		<item id="15425" chance="5000" /> <!-- deepling warts -->
+		<item id="7591" chance="5000" /> <!-- great health potion -->
+		<item id="13870" chance="5000" /><!-- eye of a deepling -->
+		<item id="7590" chance="4000" /><!-- great mana potion -->
+		<item id="15488" chance="2000" /><!-- deepling filet -->
+		<item id="15452" chance="1000" /><!-- deepling ridge -->
+		<item id="15426" chance="1700" /><!-- deeptags -->
+		<item id="15649" countmax="5" chance="24000" /> <!-- vortex bolt -->
+		<item id="2168" chance="1360" /> <!-- life ring -->
+		<item id="2149" countmax="2" chance="1290" /> <!-- small emerald -->
+		<item id="13838" chance="580" /> <!-- heavy trident -->
+		<item id="5895" chance="700" /><!-- fish fin -->
+		<item id="15453" chance="434" /><!-- warrior's shield -->
+		<item id="15451" chance="240" /><!-- warrior's axe -->
+	</loot>
+</monster>

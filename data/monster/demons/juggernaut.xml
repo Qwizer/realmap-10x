@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Juggernaut" nameDescription="a juggernaut" race="blood" experience="14000" speed="340" manacost="0">
+	<health now="20000" max="20000" />
+	<look type="244" corpse="6336" />
+	<targetchange interval="2000" chance="3" />
+	<strategy attack="100" defense="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag isblockable="0" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="175" attack="160" />
+		<attack name="physical" interval="2000" chance="15" range="7" min="-0" max="-780">
+			<attribute key="shootEffect" value="largerock" />
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+	</attacks>
+	<defenses armor="44" defense="59">
+		<defense name="healing" interval="2000" chance="11" min="400" max="900">
+			<attribute key="areaEffect" value="fire" />
+		</defense>
+		<defense name="speed" interval="2000" chance="9" speedchange="570" duration="10000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="40" />
+		<element firePercent="30" />
+		<element icePercent="10" />
+		<element earthPercent="20" />
+		<element energyPercent="-10" />
+		<element holyPercent="-5" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="WAHHHH!" />
+		<voice sentence="RAAARRR!" />
+		<voice sentence="GRRRRRR!" />
+	</voices>
+	<loot>
+		<item id="2136" chance="170" /><!-- demonbone amulet -->
+		<item id="2578" chance="330" /><!-- closed trap -->
+		<item id="2148" countmax="198" chance="100000" /><!-- gold coin -->
+		<item id="2671" countmax="8" chance="71710" /><!-- ham -->
+		<item id="2152" countmax="15" chance="100000" /><!-- platinum coin -->
+		<item id="5944" chance="3270" /><!-- soul orb -->
+		<item id="2476" chance="2320" /><!-- knight armor -->
+		<item id="9810" chance="300" /><!-- rusty armor -->
+		<item id="2466" chance="270" /><!-- golden armor -->
+		<item id="2470" chance="150" /><!-- golden legs -->
+		<item id="2514" chance="230" /><!-- mastermand shield -->
+		<item id="8889" chance="150" /><!-- skullcracker armor -->
+		<item id="7368" countmax="10" chance="2760" /><!-- assassin star -->
+		<item id="6500" chance="2750" /><!-- demonic essence -->
+		<item id="9971" countmax="2" chance="1260" /><!-- gold ingot -->
+		<item id="7365" countmax="15" chance="7640" /><!-- onyx arrow -->
+		<item id="7413" chance="1490" /><!-- titan axe -->
+		<item id="2452" chance="100" /><!-- heavy mace -->
+		<item id="2454" chance="500" /><!-- war axe -->
+		<item id="7452" chance="660" /><!-- spiked squelcher -->
+		<item id="7590" countmax="3" chance="3280" /><!-- great mana potion -->
+		<item id="7591" countmax="3" chance="6110" /><!-- great health potion -->
+		<item id="6558" chance="2790" /><!-- concentrated demonic blood -->
+		<item id="6558" chance="2790" /><!-- concentrated demonic blood -->
+		<item id="6558" chance="1790" /><!-- concentrated demonic blood -->
+		<item id="6558" chance="17790" /><!-- concentrated demonic blood -->
+		<item id="7632" countmax="1" chance="3320" /><!-- brown giant shimmering pearl -->
+		<item id="7633" countmax="1" chance="2320" /><!-- blue giant shimmering pearl -->
+		<item id="2150" countmax="5" chance="1970" /><!-- small amethyst -->
+		<item id="2149" countmax="5" chance="1470" /><!-- small emerald -->
+		<item id="2145" countmax="5" chance="1800" /><!-- small diamond -->
+		<item id="9970" countmax="5" chance="2130" /><!-- small topaz -->
+		<item id="2147" countmax="5" chance="2800" /><!-- small ruby -->
+		<item id="2155" chance="1000" /><!-- green gem -->
+		<item id="2156" chance="1640" /><!-- red gem -->
+		<item id="2153" chance="370" /><!-- violet gem -->
+	</loot>
+</monster>

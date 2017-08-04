@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+	<!-- GameStore -->
+	<module type="recvbyte" byte="233" script="gamestore/gamestore.lua"/>
+	<module type="recvbyte" byte="239" script="gamestore/gamestore.lua"/>
+	<module type="recvbyte" byte="250" delay="600" script="gamestore/gamestore.lua"/>
+	<module type="recvbyte" byte="251" script="gamestore/gamestore.lua"/>
+	<module type="recvbyte" byte="252" script="gamestore/gamestore.lua"/>
+	<module type="recvbyte" byte="253" script="gamestore/gamestore.lua"/>
+	<module type="recvbyte" byte="254" script="gamestore/gamestore.lua"/>
+
+	<!-- Preysystem -->
+	<module type="recvbyte" byte="235" script="prey system/preysystem.lua" />
+	<module type="recvbyte" byte="237" script="prey system/preysystem.lua" />
+
+	<!-- Imbuement -->
+	<module type="recvbyte" byte="213" script="imbuement/imbuement.lua" />
+	
+	<!--<module type="recvbyte" byte="119" delay="100" script="equipobject/equipobject.lua"/> -->
+	<!--<module type="recvbyte" byte="139" script="house/decorationkit.lua" />  -->
+	
+	<module type="recvbyte" byte="205" script="inspection/inspection.lua"/>
+	<module type="recvbyte" byte="206" script="inspection/inspection.lua"/>
+</modules>

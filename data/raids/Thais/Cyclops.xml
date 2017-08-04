@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<announce delay="1000" type="event" message="Let da mashing begin! Cyclops riot east of Thais." />
+<areaspawn delay="1000" fromx="32416" fromy="32043" fromz="8" tox="32486" toy="32082" toz="8">
+	<monster name="Cyclops" amount="120" />
+</areaspawn>
+</raid>
