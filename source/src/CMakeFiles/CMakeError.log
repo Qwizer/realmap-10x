@@ -1,0 +1,69 @@
+Performing C++ SOURCE FILE Test COMPILER_KNOWS_STDLIB failed with the following output:
+Change Dir: /home/otserv/fortera/source/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2903616279/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2903616279.dir/build.make CMakeFiles/cmTryCompileExec2903616279.dir/build
+make[1]: Entering directory `/home/otserv/fortera/source/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/otserv/fortera/source/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2903616279.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_KNOWS_STDLIB   -stdlib=libc++ -o CMakeFiles/cmTryCompileExec2903616279.dir/src.cxx.o -c /home/otserv/fortera/source/src/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-stdlib=libc++'
+make[1]: *** [CMakeFiles/cmTryCompileExec2903616279.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/otserv/fortera/source/src/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2903616279/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/otserv/fortera/source/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec936210016/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec936210016.dir/build.make CMakeFiles/cmTryCompileExec936210016.dir/build
+make[1]: Entering directory `/home/otserv/fortera/source/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/otserv/fortera/source/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec936210016.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec936210016.dir/CheckSymbolExists.c.o   -c /home/otserv/fortera/source/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec936210016
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec936210016.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec936210016.dir/CheckSymbolExists.c.o  -o cmTryCompileExec936210016 -rdynamic 
+CMakeFiles/cmTryCompileExec936210016.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec936210016] Error 1
+make[1]: Leaving directory `/home/otserv/fortera/source/src/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec936210016/fast] Error 2
+
+File /home/otserv/fortera/source/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/otserv/fortera/source/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec215861459/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec215861459.dir/build.make CMakeFiles/cmTryCompileExec215861459.dir/build
+make[1]: Entering directory `/home/otserv/fortera/source/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/otserv/fortera/source/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec215861459.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec215861459.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec215861459
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec215861459.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec215861459.dir/CheckFunctionExists.c.o  -o cmTryCompileExec215861459 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec215861459] Error 1
+make[1]: Leaving directory `/home/otserv/fortera/source/src/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec215861459/fast] Error 2
+
+
