@@ -8,7 +8,8 @@ Zoombie<br>
 BattleField
 
 # Tutoriais
-Temos uma Wiki explicando como compilar as sources <a href="https://github.com/otland/forgottenserver/wiki">Clique aqui</a>
+Temos uma Wiki explicando como compilar as sources <a href="https://github.com/otland/forgottenserver/wiki">Clique aqui</a><br>
+Fazendo seu cliente proprio <a href="https://www.google.com.br/search?q=fazendo+seu+proprio+cliente+8.6+10xx&spell=1&sa=X&ved=0ahUKEwib8-Hp1r7VAhXG8CYKHRU4BVwQvwUIJCgA&biw=1366&bih=662">Clique aqui</a>
 
 # Downloads
 Cliente versao 10x com Retro Outfits <a href="url">Clique aqui</a><br>
