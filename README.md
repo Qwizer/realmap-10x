@@ -1,6 +1,9 @@
 # Real Map-10x
 Servidor mapa global completo com halls of hope, wrap, store ingame, prey system, imbuing system.
 
+# Linux Recomendado
+Ubuntu 14.04 LTS
+
 # Eventos
 Snow Ball<br>
 Castle<br>
