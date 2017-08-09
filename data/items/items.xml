@@ -1756,6 +1756,10 @@
 		<attribute key="weight" value="1000" />
 	</item>
 	
+	<item id="25392" article="a" name="rift carpet">
+		<attribute key="weight" value="1000" />
+	</item>
+	
 	<item id="25391" article="a" name="rift lamp">
 		<attribute key="weight" value="1000" />
 	</item>
@@ -4271,7 +4275,9 @@
 		<attribute key="weaponType" value="club" />
 		<attribute key="imbuingSlots" value="1" />
 	</item>
-	
+	<item id="25419" article="a" name="shaggy ogre bag">
+		<attribute key="weight" value="1000" />
+	</item>	
 	<item id="24827" article="a" name="ogre klubba">
 		<attribute key="weight" value="9700" />
 		<attribute key="defense" value="25" />
