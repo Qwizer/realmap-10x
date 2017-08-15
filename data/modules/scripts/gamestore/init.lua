@@ -370,8 +370,7 @@ function parseBuyStoreOffer(player, msg)
 
 			player:addPreySlot()
 		elseif offer.type == GameStore.OfferTypes.OFFER_TYPE_PREYBONUS then
-			local bonusCount = offer.count
-			player:addBonusReroll(bonusCount)
+			player:addBonusReroll(offer.count)
 		-- premium time by Adm Lukan 
 		elseif offer.type == GameStore.OfferTypes.PREMIUM_10 then
 			player:addPremiumDays(offer.day)
@@ -917,6 +916,7 @@ GameStore.addPromotionToPlayer = function(player, promotion)
 end
 
 --==Player==--
+
 function Player.getCoinsBalance(self)
 	resultId = db.storeQuery("SELECT `coins` FROM `accounts` WHERE `id` = " .. self:getAccountId())
 	if not resultId then return 0 end
