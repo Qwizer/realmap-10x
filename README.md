@@ -1,8 +1,12 @@
 # Real Map-10x
 Servidor mapa global completo com halls of hope, wrap, store ingame, prey system, imbuing system.
 
-# Linux Recomendado
-Ubuntu 14.04 LTS
+# Contatos e Suporte Geral
+TibiaKing, Xtibia e Otland (FORUMS RECOMENDADOS).<br>
+<b>Skype:</b> onjogos <b>Whatsapp:</b> +55 (66) 9 8427-4493
+
+# Sistemas Recomendados
+Ubuntu 14.04 LTS e Windows 7+
 
 # Eventos
 Snow Ball<br>
@@ -23,7 +27,3 @@ IpChanger Versões 7.x - 10.x: <a href="https://static.otland.net/ipchanger.exe"
 
 # GOD Account
 senha: 2/god
-
-# Contatos e Suporte Geral
-TibiaKing, Xtibia e Otland (FORUMS RECOMENDADOS).<br>
-<b>Skype:</b> onjogos <b>Whatsapp:</b> +55 (66) 9 8427-4493
