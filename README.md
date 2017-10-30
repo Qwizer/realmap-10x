@@ -3,7 +3,7 @@ Servidor mapa global completo com halls of hope, wrap, store ingame, prey system
 
 # Contatos e Suporte Geral
 TibiaKing, Xtibia e Otland (FORUMS RECOMENDADOS).<br>
-<b>Skype:</b> onjogos <b>Whatsapp:</b> +55 (66) 9 8427-4493
+<b>Skype:</b> onjogos <b>Whatsapp:</b> +55 (66) 9 8427-4493 <b>Discord:</b> Qwizer
 
 # Sistemas Recomendados
 Ubuntu 14.04 LTS e Windows 7+
